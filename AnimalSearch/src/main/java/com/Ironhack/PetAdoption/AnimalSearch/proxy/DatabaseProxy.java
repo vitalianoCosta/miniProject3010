@@ -17,7 +17,7 @@ public interface DatabaseProxy {
   List<AnimalGetDTO> getListOfAvailableAnimals();
 
   @GetMapping
-  List<AnimalGetDTO> getListOfAvailableAnimalsByTypeAndAgeRange(@RequestParam Optional<String> type, @RequestParam Optional<Integer> age);
+  List<AnimalGetDTO> getListOfAvailableAnimalsByTypeAndAgeRange(@RequestParam Optional<String> type, @RequestParam Optional<Integer> startAge, @RequestParam Optional<Integer> endAge);
 
   @PostMapping
   AnimalGetDTO postNewAnimal(@RequestBody AnimalPostDTO animalPostDTO);

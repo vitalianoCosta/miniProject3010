@@ -23,8 +23,8 @@ public class AnimalControllerImpl {
   }
 
   @GetMapping
-  public List<AnimalGetDTO> getListOfAvailableAnimalsByTypeAndAgeRange(@RequestParam Optional<String> type, @RequestParam Optional<Integer> age) {
-    return animalService.getListOfAvailableAnimalsByTypeAndAgeRange(type, age);
+  public List<AnimalGetDTO> getListOfAvailableAnimalsByTypeAndAgeRange(@RequestParam Optional<String> type, @RequestParam Optional<Integer> startAge, @RequestParam Optional<Integer> endAge) {
+    return animalService.getListOfAvailableAnimalsByTypeAndAgeRange(type, startAge, endAge);
   }
 
   @PostMapping

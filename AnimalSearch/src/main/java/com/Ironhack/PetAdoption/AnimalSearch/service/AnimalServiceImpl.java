@@ -23,8 +23,8 @@ public class AnimalServiceImpl {
     return databaseProxy.getListOfAvailableAnimals();
   }
 
-  public List<AnimalGetDTO> getListOfAvailableAnimalsByTypeAndAgeRange(Optional<String> type, Optional<Integer> age) {
-    return databaseProxy.getListOfAvailableAnimalsByTypeAndAgeRange(type, age);
+  public List<AnimalGetDTO> getListOfAvailableAnimalsByTypeAndAgeRange(Optional<String> type, Optional<Integer> startAge, Optional<Integer> endAge) {
+    return databaseProxy.getListOfAvailableAnimalsByTypeAndAgeRange(type, startAge, endAge);
   }
 
   public AnimalGetDTO postNewAnimal(AnimalPostDTO animalPostDTO) {
