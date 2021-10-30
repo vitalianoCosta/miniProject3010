@@ -18,6 +18,13 @@ public class AnimalServiceImpl {
   @Autowired
   private DatabaseProxy databaseProxy;
 
+//  public List<AnimalGetDTO> getListOfAllAnimals() {
+//    return databaseProxy.getListOfAvailableAnimals();
+//  }
+//
+//  public AnimalGetDTO getAnimalById(Long id) {
+//    return databaseProxy.getAnimalById(id);
+//  }
 
   public List<AnimalGetDTO> getListOfAvailableAnimals() {
     return databaseProxy.getListOfAvailableAnimals();

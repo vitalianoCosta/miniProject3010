@@ -17,6 +17,16 @@ public class AnimalControllerImpl {
   @Autowired
   private AnimalServiceImpl animalService;
 
+//  @GetMapping("/all")
+//  public List<AnimalGetDTO> getListOfAllAnimals() {
+//    return animalService.getListOfAvailableAnimals();
+//  }
+//
+//  @GetMapping("/{id}")
+//  public AnimalGetDTO getAnimalById(@PathVariable Long id) {
+//    return animalService.getAnimalById(id);
+//  }
+
   @GetMapping("/available")
   public List<AnimalGetDTO> getListOfAvailableAnimals() {
     return animalService.getListOfAvailableAnimals();

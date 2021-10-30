@@ -13,6 +13,12 @@ import java.util.Optional;
 @RequestMapping("/database/animal")
 public interface DatabaseProxy {
 
+//  @GetMapping("/all")
+//  List<AnimalGetDTO> getListOfAllAnimals();
+//
+//  @GetMapping("/{id}")
+//  AnimalGetDTO getAnimalById(@PathVariable Long id);
+
   @GetMapping("/available")
   List<AnimalGetDTO> getListOfAvailableAnimals();
 
