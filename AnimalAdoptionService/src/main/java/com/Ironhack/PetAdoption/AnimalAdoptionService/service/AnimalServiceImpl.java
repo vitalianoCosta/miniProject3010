@@ -1,9 +1,9 @@
-package com.Ironhack.PetAdoption.AnimalSearch.service;
+package com.Ironhack.PetAdoption.AnimalAdoptionService.service;
 
-import com.Ironhack.PetAdoption.AnimalSearch.dto.AnimalGetDTO;
-import com.Ironhack.PetAdoption.AnimalSearch.dto.AnimalPostDTO;
-import com.Ironhack.PetAdoption.AnimalSearch.dto.AvailableDTO;
-import com.Ironhack.PetAdoption.AnimalSearch.proxy.DatabaseProxy;
+import com.Ironhack.PetAdoption.AnimalAdoptionService.dto.AnimalGetDTO;
+import com.Ironhack.PetAdoption.AnimalAdoptionService.dto.AnimalPostDTO;
+import com.Ironhack.PetAdoption.AnimalAdoptionService.dto.AvailableDTO;
+import com.Ironhack.PetAdoption.AnimalAdoptionService.proxy.AnimalProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,15 +16,7 @@ import java.util.Optional;
 public class AnimalServiceImpl {
 
   @Autowired
-  private DatabaseProxy databaseProxy;
-
-//  public List<AnimalGetDTO> getListOfAllAnimals() {
-//    return databaseProxy.getListOfAvailableAnimals();
-//  }
-//
-//  public AnimalGetDTO getAnimalById(Long id) {
-//    return databaseProxy.getAnimalById(id);
-//  }
+  private AnimalProxy databaseProxy;
 
   public List<AnimalGetDTO> getListOfAvailableAnimals() {
     return databaseProxy.getListOfAvailableAnimals();
@@ -38,7 +30,7 @@ public class AnimalServiceImpl {
     return databaseProxy.postNewAnimal(animalPostDTO);
   }
 
-  public AvailableDTO updateAvailability(@PathVariable("id") long id, @RequestBody AvailableDTO isAvailableDTO) {
+  public AvailableDTO updateAvailability(@PathVariable("id") int id, @RequestBody AvailableDTO isAvailableDTO) {
     return databaseProxy.updateAvailability(id, isAvailableDTO);
   }
 

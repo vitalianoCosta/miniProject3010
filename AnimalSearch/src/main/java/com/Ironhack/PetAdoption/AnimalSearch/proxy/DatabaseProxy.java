@@ -29,6 +29,6 @@ public interface DatabaseProxy {
   AnimalGetDTO postNewAnimal(@RequestBody AnimalPostDTO animalPostDTO);
 
   @PatchMapping("/{id}")
-  AvailableDTO updateAvailability(@PathVariable("id") int id, @RequestBody AvailableDTO isAvailableDTO);
+  AvailableDTO updateAvailability(@PathVariable("id") long id, @RequestBody AvailableDTO isAvailableDTO);
 
 }

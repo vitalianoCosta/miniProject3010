@@ -43,7 +43,7 @@ public class AnimalControllerImpl {
   }
 
   @PatchMapping("/{id}")
-  public AvailableDTO updateAvailability(@PathVariable("id") int id, @RequestBody AvailableDTO isAvailableDTO) {
+  public AvailableDTO updateAvailability(@PathVariable("id") long id, @RequestBody AvailableDTO isAvailableDTO) {
     return animalService.updateAvailability(id, isAvailableDTO);
   }
 
