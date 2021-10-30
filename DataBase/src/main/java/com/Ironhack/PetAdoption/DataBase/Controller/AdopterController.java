@@ -18,7 +18,7 @@ public class AdopterController {
     AdopterService adopterService;
 
     @PostMapping
-    Adopter postNewAnimal(@RequestBody AdopterDTO adopterDTO){
+    Adopter postNewAdopter(@RequestBody AdopterDTO adopterDTO){
         return adopterService.createAdopter(adopterDTO);
     }
 
