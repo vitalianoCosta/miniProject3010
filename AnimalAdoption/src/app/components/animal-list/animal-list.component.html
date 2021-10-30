@@ -1,0 +1,28 @@
+<div class="card my-5">
+    <div class="card-body">
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Age</th>
+            <th scope="col">Available</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let animal of animals; let i = index" >
+            <td>{{ animal.id }}</td>
+            <td>{{ animal.name }}</td>
+            <td>{{ animal.type }}</td>
+            <td>{{ animal.age }}</td>
+            <td>{{ animal.available }}</td>
+            <td>
+                <button class="btn btn-primary" (click)="addAdopter(i)">Adopt This Pet</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+
