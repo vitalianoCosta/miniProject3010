@@ -15,5 +15,4 @@ public class AnimalGetDTO {
   private String type;
   private Integer age;
   private Boolean available;
-
 }

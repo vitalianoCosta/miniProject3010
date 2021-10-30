@@ -13,5 +13,4 @@ public class AnimalPostDTO {
   private String name;
   private String type;
   private Integer age;
-  private Boolean available;
 }
