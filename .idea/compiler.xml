@@ -15,10 +15,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AdopterService" target="17" />
-      <module name="AnimalAdoptionService" target="17" />
+      <module name="AdopterService" target="16" />
+      <module name="AnimalAdoptionService" target="16" />
       <module name="AnimalSearch" target="17" />
-      <module name="DataBase" target="17" />
+      <module name="DataBase" target="16" />
       <module name="discovery-service" target="11" />
     </bytecodeTargetLevel>
   </component>
