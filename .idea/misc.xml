@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/AnimalAdoptionService/pom.xml" />
         <option value="$PROJECT_DIR$/AnimalSearch/pom.xml" />
         <option value="$PROJECT_DIR$/DataBase/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery-service/pom.xml" />
       </list>
     </option>
   </component>

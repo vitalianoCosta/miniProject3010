@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/AnimalAdoptionService/AnimalAdoptionService.iml" filepath="$PROJECT_DIR$/AnimalAdoptionService/AnimalAdoptionService.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimalSearch/AnimalSearch.iml" filepath="$PROJECT_DIR$/AnimalSearch/AnimalSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataBase/DataBase.iml" filepath="$PROJECT_DIR$/DataBase/DataBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/discovery-service/discovery-service.iml" />
     </modules>
   </component>
 </project>

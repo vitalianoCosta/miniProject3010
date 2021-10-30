@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="AnimalAdoptionService" />
         <module name="AnimalSearch" />
         <module name="AdopterService" />
+        <module name="discovery-service" />
         <module name="DataBase" />
       </profile>
     </annotationProcessing>
@@ -17,6 +19,7 @@
       <module name="AnimalAdoptionService" target="17" />
       <module name="AnimalSearch" target="17" />
       <module name="DataBase" target="17" />
+      <module name="discovery-service" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +28,7 @@
       <module name="AnimalAdoptionService" options="-parameters" />
       <module name="AnimalSearch" options="-parameters" />
       <module name="DataBase" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
     </option>
   </component>
 </project>
