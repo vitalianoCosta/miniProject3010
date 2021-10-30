@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AnimalAdoptionProject-IronHack.iml" filepath="$PROJECT_DIR$/.idea/AnimalAdoptionProject-IronHack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdopterService/AdopterService.iml" filepath="$PROJECT_DIR$/AdopterService/AdopterService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AnimalAdoptionProject-IronHack2.iml" filepath="$PROJECT_DIR$/.idea/AnimalAdoptionProject-IronHack2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnimalAdoptionService/AnimalAdoptionService.iml" filepath="$PROJECT_DIR$/AnimalAdoptionService/AnimalAdoptionService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnimalSearch/AnimalSearch.iml" filepath="$PROJECT_DIR$/AnimalSearch/AnimalSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataBase/DataBase.iml" filepath="$PROJECT_DIR$/DataBase/DataBase.iml" />
     </modules>
   </component>
 </project>
